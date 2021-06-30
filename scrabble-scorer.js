@@ -34,15 +34,14 @@ function oldScrabbleScorer(word) {
 
 function initialPrompt() {
    
-   let userWord =  input.question("Let's play some scrabble! Enter a word:");
-   console.log(userWord);
+   let userWord =  input.question("Let's play some scrabble!\n\nEnter a word:");
+   //console.log(userWord);
    return userWord ;
 };
+function simple (word, number) {
 
-
-
-let simpleScore;
-
+let simpleScore = []
+}
 let vowelBonusScore;
 
 let scrabbleScore;
@@ -57,7 +56,7 @@ let newPointStructure;
 
 function runProgram() {
    let userWord = initialPrompt();
-   oldScrabbleScorer(userWord);
+   //oldScrabbleScorer(userWord);
    console.log(oldScrabbleScorer(userWord));
    
 }
