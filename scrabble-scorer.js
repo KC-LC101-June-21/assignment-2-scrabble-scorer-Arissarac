@@ -123,7 +123,8 @@ let keys = Object.keys(oldScorer)
 
 for(let i in keys) {
   for(let j in oldScorer[i]) {
-      transformedScorer[oldScorer[i][j]]=i;
+      transformedScorer[j.toLowerCase(i)];
+      //transformedScorer[j.toUpperCase()]=i;
 }
 }
 return transformedScorer;
